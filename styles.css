@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+/* Repeating Christmas Pattern - Start */
+html {
+  background-color: #000;
+}
+
+/* Repeating Christmas Pattern - End */
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  color: white;
+}
+
+
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+body {
+  margin: 0;
+}
+
+#bridge {
+  display: block;
+  margin: 0 auto;
+  background-image: url('https://is1-ssl.mzstatic.com/image/thumb/Video116/v4/b7/9a/c4/b79ac47f-c441-d677-896b-99329d99509e/Job5e0815c1-6ca8-4b2f-b146-8459dc999bbe-158810928-PreviewImage_preview_image_nonvideo_sdr-Time1700275964511.png/632x632bb.webp');
+  background-position-x: center;
+  background-position-y: 30%;
+  background-repeat: no-repeat;
+  background-size: 67%;
+  width: 100%;
+  max-width: 750px;
+  height: auto;
+  cursor: crosshair;
+  cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/circular-cursor.png)
+      53 53,
+    crosshair;
+}
+#gift-content {
+  display: block;
+  position:absolute;
+  margin: auto;
+  background-image: url('https://is1-ssl.mzstatic.com/image/thumb/Video116/v4/b7/9a/c4/b79ac47f-c441-d677-896b-99329d99509e/Job5e0815c1-6ca8-4b2f-b146-8459dc999bbe-158810928-PreviewImage_preview_image_nonvideo_sdr-Time1700275964511.png/632x632bb.webp');
+  /*background-image: -webkit-image-set(
+    url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/calgary-bridge-1943.jpg')
+      1x,
+    url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/calgary-bridge-1943-2x.jpg')
+      2x
+  );*/
+  background-size: cover;
+  width: 80%;
+  height: auto;
+}
+figcaption {
+
+  margin-right: 1rem;
+  padding: 0.25rem;
+}
+#bridgeContainer {
+  text-align: center;
+  font-family: Avenir, sans-serif;
+}
+#bridgeContainer figcaption {
+  margin-top: 2rem;
+}
+.gift {
+  background-color: #000;
+}
+#footer {
+  display: block;
+  --s: 75px; /* control the size */
+
+  --_c: #0000, #fff 1deg 79deg, #0000 81deg;
+  --g0: conic-gradient(from 140deg at 50% 87.5%, var(--_c));
+  --g1: conic-gradient(from 140deg at 50% 81.25%, var(--_c));
+  --g2: conic-gradient(from 140deg at 50% 75%, var(--_c));
+  --g3: conic-gradient(at 10% 20%, #0000 75%, #fff 0);
+  background: var(--g0) 0 calc(var(--s) / -4),
+    var(--g0) var(--s) calc(3 * var(--s) / 4), var(--g1),
+    var(--g1) var(--s) var(--s), var(--g2) 0 calc(var(--s) / 4),
+    var(--g2) var(--s) calc(5 * var(--s) / 4),
+    var(--g3) calc(var(--s) / -10) var(--s),
+    var(--g3) calc(9 * var(--s) / 10) calc(2 * var(--s)),
+    repeating-conic-gradient(from 45deg, #a31e39 0 25%, #31570e 0 50%);
+  background-size: calc(2 * var(--s)) calc(2 * var(--s));
+}
